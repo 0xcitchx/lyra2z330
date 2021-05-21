@@ -1,3 +1,4 @@
+sudo apt update
 git clone https://github.com/JayDDee/cpuminer-opt.git
 ./autogen.sh
 CFLAGS="-O3 -march=native -Wall" ./configure --with-curl
